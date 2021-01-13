@@ -1,0 +1,380 @@
+/********************global css here************/
+*{
+	margin:0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+/**********global css end here*/
+/********Banner section css start from here********/
+.header{
+	width: 100%;
+	background-image: url(../image/background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	padding:40px 0px;
+}
+.menu-list ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	text-align: right;
+	margin-left: 30px;
+}
+.menu-list ul li a{
+	font-size: 16px;
+	color: #3d2514;
+	letter-spacing: 3px;
+}
+.menu-contact{
+	text-align: right;
+	margin-bottom: 20px;
+}
+.menu-contact span{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	vertical-align: middle;
+
+}
+.menu-contact img{
+	vertical-align: middle;
+}
+.banner-title{
+	height: 50vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-title p{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	border:1px dashed #3d2514;
+	display: inline-block;
+	padding: 7px 8px;
+}
+.banner-title h1{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 82px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #fee7ba;
+	
+
+}
+.banner-title h2{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 54px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px #fee7ba;
+	letter-spacing: 3px;
+}
+/********Banner section css end here********/
+
+/*********poster section css start from here******/
+
+.burger-poster{
+	padding: 50px;
+}
+.poster{
+	display: flex;
+	justify-content: space-between;
+}
+ .poster .left {
+	position: relative;
+	margin-right: 18px;
+}
+.post1-des{
+	position: absolute;
+	top:40px;
+	left: 22px;
+}
+.poster .right{
+	margin-left: 18px;
+}
+.poster .right .img-top{
+	position: relative;
+}
+.post2-des{
+	position: absolute;
+	top: 25px;
+    left: 22px;
+}
+.poster .right .img-btm{
+	position: relative;
+	margin-top: 30px;
+}
+.post3-des{
+	position: absolute;
+	top: 25px;
+	left: 22px;
+}
+.post1-des h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.post1-des h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 35px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.post2-des h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.post2-des h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.post3-des h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.post3-des h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #ffffff;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+/*********poster section css end here******/
+/*********burger menu seciyon css start from here*******/
+.burger-menu{
+	text-align: center;
+}
+.burger-menu-title button{
+	padding: 8px 24px;
+    border: none;
+    color: #3d2514;
+    background: #ffc045;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 33px;
+}
+.burger-menu-title h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size:42px;
+}
+.burger-menu-title p{
+	font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+	font-size:16px;
+	margin-bottom: 55px;
+}
+
+.menu-gallery{
+	display: flex;
+
+}
+.menu-gallery .menu-des h1{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    color: #3d2514;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+}
+.menu-gallery .menu-des p{
+	color: #715f53;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+.menu-gallery button{
+	padding: 12px 14px;
+    border: none;
+    background: #bf2222;
+    text-transform: uppercase;
+}
+.menu-gallery button a{
+	font-size: 14px;
+    font-family: 'Alfa Slab One', cursive;
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+.menu-gallery button:hover{
+	transform: scale(.7);
+	transition: .3s;
+}
+/*********burger menu section css end here*******/
+ /********slider section css start from here *******/
+ .slider-selection{
+ 	width: 100%;
+ }
+.event{
+	display: flex;
+    padding: 20px;
+   box-shadow: 3px 10px 13px 2px rgba(0, 0, 0, 0.3);
+    margin-top:15px;
+}
+.event-left{
+	padding: 60px;
+    width: 50%;
+}
+.event-right{
+	margin-top: 63px;
+    padding-left: 60px;
+    width: 50%;
+}
+.event-left h3{
+	font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #505050;
+    letter-spacing: 3px;
+}
+.event-left h1{
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+    font-size: 36px;
+    color: #3d2514;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.event-left p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color: #3d3d3d;
+}
+/********slider section css end here *******/
+
+/********contact section css start from here *******/
+.contact-section{
+	width: 100%;
+	text-align: center;
+    background-image: url(../image/form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+.contact h4{
+    padding-top: 70px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #3d2514;
+}
+.contact h1{
+	font-family: "Alfa Slab One", cursive;
+    font-size: 45px;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #3d2514;
+    margin-bottom: 100px
+
+}
+.contact .left {
+    width: 25%;
+    margin-right: 12px;
+}
+.contact .right {
+    width: 25%;
+    margin-left: 12px;
+ }
+.contact .left, .contact .right {
+    padding: 15px 25px;
+    margin-bottom: 25px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 21px;
+    color: gray;
+ }
+ .contact .btn{
+    padding: 13px;
+    margin-bottom: 22px;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #bf2121;
+    width: 30%;
+    margin-left: 12px;
+    border: none;
+}
+/********contact section css end here *******/
+/********footer section css start from here *******/
+.footer{
+	width: 100%;
+}
+.footer-content{
+	background-image: url(../image/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    display: flex;
+}
+.foot-left p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: white;
+    padding: 35px 300px 110px 9px;
+}
+.foot-left span{
+    font-family: "Bebas Neue", cursive;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+}
+.foot-right .contact ul li{
+	list-style: none;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	
+	
+}
+.foot-right{
+	width: 50%;
+	text-align: center;
+	margin-top: 120px;
+	margin-right: 30px;
+}
+.foot-right .contact ul li i{
+	padding-right: 5px;
+}
+
+.social-icon ul li{
+list-style: none;
+display: inline-block;
+margin-top: 140px;
+margin-left: 8px;
+}
+.social-icon ul li a i{
+	color: white;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+
+/********footer section css end here *******/
